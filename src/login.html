@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>Login:</legend>
+            <label>Username</label>
+            <input type="text" id="username" /><br><br>
+            <label>Password</label>
+            <input type="password" id="password" /><br /><br>
+            <button id="login" onclick="authenticateLogin()">Login</button>
+        </fieldset>
+    </form>
+    <p style="color: red;" id="error"></p>
+
+    
+    <script src="index.js"></script>
+    <script type="text/javascript" src="jasmine/lib/jasmine-standalone-3.5.0/jasmine.js"></script>
+    <script type="text/javascript" src="jasmine/lib/jasmine-standalone-3.5.0/jasmine-html.js"></script>
+    <script type="text/javascript" src="jasmine/lib/jasmine-standalone-3.5.0/boot.js"></script>
+</body>
+
+</html>
